@@ -10,7 +10,8 @@ module.exports = {
         Poppins :["Poppins", 'sans-serif'],
       },
       backgroundImage: {
-        main: 'url(/src/images/bg.png)'
+        main: 'url(/src/images/bg.png)',
+        hero: "url(/src/images/hero.svg)",
       }
     },
   },

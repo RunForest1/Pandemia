@@ -11,7 +11,7 @@ import { ButtonNav } from '../Button-nav'
 
 export const Header = () => {
   return (
-    <header className='flex items-center mt-16 space-x-52'>
+    <header className='flex items-center justify-between mt-16 space-x-52 mx-14'>
       <Logo/>
       <nav className='flex items-center space-x-20'>
         <NavItem text='Новости'/>
