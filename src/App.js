@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { ShopMenu } from "./components/Shop-menu";
 import { Wrapper } from "./components/Wrapper";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <Wrapper>
       <Header/>
       <Hero/>
+      <ShopMenu/>
     </Wrapper>
   );
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import { ReactComponent as Dots } from '../../images/dots.svg'
-import { Card } from '../Card'
 
 export const SideMenu = () => {
   return (
@@ -14,7 +13,6 @@ export const SideMenu = () => {
         <p className='font-Poppins text-lg font-medium text-white underline cursor-pointer hover:text-blue-500 duration-300 ml-10 underline-offset-4'>
           Тех.поддержка
         </p>
-        
     </div>
   )
 }
