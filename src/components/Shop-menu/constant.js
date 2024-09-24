@@ -6,5 +6,4 @@ export const MENU = [
     { text: 'Наборы'},
     { text: 'Автомобили'},
     { text: 'Еда'},
-    { text: 'Привилегии'},
   ]
