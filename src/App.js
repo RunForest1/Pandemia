@@ -1,6 +1,8 @@
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
-import { ShopMenu } from "./components/Shop-menu";
+import { Menu } from "./components/Menu";
+import { PopularItems } from "./components/Popular-items";
 import { Wrapper } from "./components/Wrapper";
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
     <Wrapper>
       <Header/>
       <Hero/>
-      <ShopMenu/>
+      <Menu/>
+      <PopularItems/>
+      <Footer/>
     </Wrapper>
   );
 }

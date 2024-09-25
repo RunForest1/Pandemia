@@ -11,7 +11,7 @@ function SampleNextArrow(props) {
   return (
       <Right 
       onClick={onClick}
-      className='absolute top-0 right-10 opacity-50 hover:opacity-100'
+      className='absolute top-0 right-10 opacity-50 hover:opacity-100 cursor-pointer'
       />
   );
 }
@@ -21,7 +21,7 @@ function SamplePrevArrow(props) {
   return (
     <Left
       onClick={onClick}
-      className='ml-6 top-0 left-10 opacity-50 hover:opacity-100'
+      className='ml-6 top-0 left-10 opacity-50 hover:opacity-100 cursor-pointer'
     />
   );
 }
